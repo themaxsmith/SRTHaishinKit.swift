@@ -3,7 +3,6 @@ import Foundation
 import AVFoundation
 
 open class SRTStream: NetStream {
-    
     public enum ReadyState: UInt8 {
         case initialized = 0
         case open        = 1
@@ -20,7 +19,7 @@ open class SRTStream: NetStream {
     private var keyValueObservations: [NSKeyValueObservation] = []
 
     private lazy var tsWriter: TSWriter = {
-        var tsWriter = TSWriter(segmentDuration: 6)
+        var tsWriter = TSWriter()
         tsWriter.delegate = self
         return tsWriter
     }()
@@ -52,7 +51,7 @@ open class SRTStream: NetStream {
     public init(_ connection: SRTConnection) {
         super.init()
         self.connection = connection
-        let keyValueObservation = connection.observe(\.connected, options: [.new, .old]) { [weak self] _, _ in
+        let keyValueObservation = connection.observe(\.connected, options: [.new, .old]) { [weak self] _, change in
             guard let self = self else { return }
             if connection.connected {
                 self.action?()
@@ -115,16 +114,13 @@ open class SRTStream: NetStream {
             self.readyState = .closed
         }
     }
-   
 }
 
 extension SRTStream: TSWriterDelegate {
     // MARK: TSWriterDelegate
-  
     final public func didOutput(_ data: Data) {
         guard readyState == .publishing else { return }
-        //print("TS Output: "+data.count)
-            connection?.outgoingSocket?.write(data)
-        
+        connection?.sendSocket?.write(data)
     }
 }
+
