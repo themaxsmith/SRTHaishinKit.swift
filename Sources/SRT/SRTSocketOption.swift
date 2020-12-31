@@ -1,4 +1,5 @@
 import Foundation
+import HaishinKit
 
 private let enummapTranstype: [String: Any] = [
     "live": SRTT_LIVE,
@@ -7,19 +8,11 @@ private let enummapTranstype: [String: Any] = [
 
 public enum SRTSocketOption: String {
     static func from(uri: URL?) -> [SRTSocketOption: Any] {
-
-        //resolvingAgainstBaseURL does not work with the streamid standard
-        //guard let uri = uri, let queryItems = URLComponents(url: uri, resolvingAgainstBaseURL: true)?.queryItems else { return [:] }
-
-        guard let uri = uri else { return [:] }
-
-        let queryItems = getQueryItems(uri: uri)
-
+        guard let uri = uri, let queryItems = URLComponents(url: uri, resolvingAgainstBaseURL: true)?.queryItems else { return [:] }
         var options: [SRTSocketOption: Any] = [:]
         for item in queryItems {
-            guard let option = SRTSocketOption(rawValue: item.key) else { continue }
+            guard let option = SRTSocketOption(rawValue: item.name) else { continue }
             options[option] = item.value
-      
         }
         return options
     }
@@ -77,6 +70,7 @@ public enum SRTSocketOption: String {
     case peerlatency
     case minversion
     case streamid
+    case smoother
     case messageapi
     case payloadsize
     case transtype
@@ -108,6 +102,7 @@ public enum SRTSocketOption: String {
         case .peerlatency: return SRTO_PEERLATENCY
         case .minversion: return SRTO_MINVERSION
         case .streamid: return SRTO_STREAMID
+        case .smoother: return SRTO_SMOOTHER
         case .messageapi: return SRTO_MESSAGEAPI
         case .payloadsize: return SRTO_PAYLOADSIZE
         case .transtype: return SRTO_TRANSTYPE
@@ -158,6 +153,7 @@ public enum SRTSocketOption: String {
         case .peerlatency: return .pre
         case .minversion: return .pre
         case .streamid: return .pre
+        case .smoother: return .pre
         case .messageapi: return .pre
         case .payloadsize: return .pre
         case .transtype: return .pre
@@ -208,6 +204,7 @@ public enum SRTSocketOption: String {
         case .peerlatency: return .int
         case .minversion: return .int
         case .streamid: return .string
+        case .smoother: return .string
         case .messageapi: return .bool
         case .payloadsize: return .int
         case .transtype: return .enumeration
@@ -280,39 +277,5 @@ public enum SRTSocketOption: String {
             if !key.apply(socket, value: value) { failures.append(key.rawValue) }
         }
         return failures
-    }
-
-    
-    static func getQueryItems(uri: URL)->[String:Any]{
-        
-
-        let url = uri.absoluteString
-
-        if !url.contains("?") {
-            return [:]
-        }
-
-        let queryString = url.split(separator: "?")[1]
-        print(queryString)
-        let queries = queryString.split(separator: "&")
-
-        
-        var paramsReturn:[String:Any] = [:]
-        
-        //defaults
-        
-//        paramsReturn["rcvsyn"] = true
-
-        
-        for q in queries {
-                
-
-            //streamid standard may have more then one equal
-            let query = q.split(separator: "=", maxSplits: 1)
-            paramsReturn[String(query[0])] = String(query[1])
-        }
-
-        return paramsReturn
-
     }
 }

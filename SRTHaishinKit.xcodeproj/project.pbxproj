@@ -23,18 +23,10 @@
 		29370FDE21B3EE8500451B6F /* libsrt-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29370FDD21B3EE8400451B6F /* libsrt-iOS.a */; };
 		296FB21121A6BD9900CB4770 /* srt4udt.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB20A21A6BD9800CB4770 /* srt4udt.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		296FB21521A6BD9900CB4770 /* platform_sys.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB20E21A6BD9800CB4770 /* platform_sys.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		296FB21721A6BD9900CB4770 /* srt.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB21021A6BD9900CB4770 /* srt.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		296FB21821A6BE2300CB4770 /* logging_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB20B21A6BD9800CB4770 /* logging_api.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		296FB21921A6BE2400CB4770 /* logging_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB20B21A6BD9800CB4770 /* logging_api.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		296FB21A21A6BE2700CB4770 /* platform_sys.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB20E21A6BD9800CB4770 /* platform_sys.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		296FB21B21A6BE2A00CB4770 /* srt.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB21021A6BD9900CB4770 /* srt.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		296FB21C21A6BE2D00CB4770 /* srt4udt.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB20A21A6BD9800CB4770 /* srt4udt.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		296FB22821A6BEE700CB4770 /* SRTSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB22721A6BEE700CB4770 /* SRTSocket.swift */; };
-		296FB22921A6BEE700CB4770 /* SRTSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB22721A6BEE700CB4770 /* SRTSocket.swift */; };
-		296FB23721A6D58900CB4770 /* SRTStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB23621A6D58900CB4770 /* SRTStream.swift */; };
-		296FB23821A6D58900CB4770 /* SRTStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB23621A6D58900CB4770 /* SRTStream.swift */; };
-		296FB23D21A6E0D100CB4770 /* SRTSocketOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB23C21A6E0D100CB4770 /* SRTSocketOption.swift */; };
-		296FB23E21A6E0D100CB4770 /* SRTSocketOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB23C21A6E0D100CB4770 /* SRTSocketOption.swift */; };
 		296FB25621A7006000CB4770 /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB24121A7005D00CB4770 /* queue.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		296FB25721A7006000CB4770 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB24221A7005E00CB4770 /* logging.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		296FB25821A7006000CB4770 /* channel.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB24321A7005E00CB4770 /* channel.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -75,21 +67,205 @@
 		296FB27D21A700B700CB4770 /* udt.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB24D21A7005F00CB4770 /* udt.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		296FB27E21A700BA00CB4770 /* utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB24421A7005E00CB4770 /* utilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		296FB27F21A700BC00CB4770 /* window.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB25421A7006000CB4770 /* window.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		296FB28421A70D8100CB4770 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB28321A70D8100CB4770 /* Constants.swift */; };
-		296FB28621A70D9600CB4770 /* SRTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB28521A70D9600CB4770 /* SRTError.swift */; };
-		296FB28721A70D9600CB4770 /* SRTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB28521A70D9600CB4770 /* SRTError.swift */; };
-		296FB28821A70E1500CB4770 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB28321A70D8100CB4770 /* Constants.swift */; };
-		296FB28A21A800CF00CB4770 /* SRTConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB28921A800CF00CB4770 /* SRTConnection.swift */; };
-		296FB28B21A800CF00CB4770 /* SRTConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB28921A800CF00CB4770 /* SRTConnection.swift */; };
 		296FB29921A8262800CB4770 /* SRTHaishinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2923D2D921734075000A5E9B /* SRTHaishinKit.framework */; };
 		296FB29A21A8262800CB4770 /* SRTHaishinKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2923D2D921734075000A5E9B /* SRTHaishinKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		296FB29F21A85A7000CB4770 /* SRTIncomingSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB29E21A85A7000CB4770 /* SRTIncomingSocket.swift */; };
-		296FB2A021A85A7000CB4770 /* SRTIncomingSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB29E21A85A7000CB4770 /* SRTIncomingSocket.swift */; };
-		296FB2A221A85A8400CB4770 /* SRTOutgoingSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB2A121A85A8400CB4770 /* SRTOutgoingSocket.swift */; };
-		296FB2A321A85A8400CB4770 /* SRTOutgoingSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FB2A121A85A8400CB4770 /* SRTOutgoingSocket.swift */; };
 		29B2C56C21B3CA8A00B1609D /* libsrt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B2C56B21B3CA8A00B1609D /* libsrt.a */; };
-		29D0939921A998AF003E6E1F /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0939821A998AF003E6E1F /* Data+Extension.swift */; };
-		29D0939A21A998AF003E6E1F /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0939821A998AF003E6E1F /* Data+Extension.swift */; };
+		9D844926259E64040088BFF1 /* NetSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448C6259E64030088BFF1 /* NetSocket.swift */; };
+		9D844927259E64040088BFF1 /* NetSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448C6259E64030088BFF1 /* NetSocket.swift */; };
+		9D844928259E64040088BFF1 /* MIME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448C7259E64030088BFF1 /* MIME.swift */; };
+		9D844929259E64040088BFF1 /* MIME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448C7259E64030088BFF1 /* MIME.swift */; };
+		9D84492A259E64040088BFF1 /* NetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448C8259E64030088BFF1 /* NetClient.swift */; };
+		9D84492B259E64040088BFF1 /* NetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448C8259E64030088BFF1 /* NetClient.swift */; };
+		9D84492C259E64040088BFF1 /* NetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448C9259E64030088BFF1 /* NetService.swift */; };
+		9D84492D259E64040088BFF1 /* NetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448C9259E64030088BFF1 /* NetService.swift */; };
+		9D84492E259E64040088BFF1 /* NetStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448CA259E64030088BFF1 /* NetStream.swift */; };
+		9D84492F259E64040088BFF1 /* NetStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448CA259E64030088BFF1 /* NetStream.swift */; };
+		9D844930259E64040088BFF1 /* RTMPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448CC259E64030088BFF1 /* RTMPSocket.swift */; };
+		9D844931259E64040088BFF1 /* RTMPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448CC259E64030088BFF1 /* RTMPSocket.swift */; };
+		9D844932259E64040088BFF1 /* ASClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448CD259E64030088BFF1 /* ASClass.swift */; };
+		9D844933259E64040088BFF1 /* ASClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448CD259E64030088BFF1 /* ASClass.swift */; };
+		9D844934259E64040088BFF1 /* RTMPHandshake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448CE259E64030088BFF1 /* RTMPHandshake.swift */; };
+		9D844935259E64040088BFF1 /* RTMPHandshake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448CE259E64030088BFF1 /* RTMPHandshake.swift */; };
+		9D844936259E64040088BFF1 /* RTMPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448CF259E64030088BFF1 /* RTMPMessage.swift */; };
+		9D844937259E64040088BFF1 /* RTMPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448CF259E64030088BFF1 /* RTMPMessage.swift */; };
+		9D844938259E64040088BFF1 /* RTMPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D0259E64030088BFF1 /* RTMPConnection.swift */; };
+		9D844939259E64040088BFF1 /* RTMPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D0259E64030088BFF1 /* RTMPConnection.swift */; };
+		9D84493A259E64040088BFF1 /* AMF0Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D1259E64030088BFF1 /* AMF0Serializer.swift */; };
+		9D84493B259E64040088BFF1 /* AMF0Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D1259E64030088BFF1 /* AMF0Serializer.swift */; };
+		9D84493C259E64040088BFF1 /* RTMPChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D2259E64030088BFF1 /* RTMPChunk.swift */; };
+		9D84493D259E64040088BFF1 /* RTMPChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D2259E64030088BFF1 /* RTMPChunk.swift */; };
+		9D84493E259E64040088BFF1 /* RTMPSharedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D3259E64030088BFF1 /* RTMPSharedObject.swift */; };
+		9D84493F259E64040088BFF1 /* RTMPSharedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D3259E64030088BFF1 /* RTMPSharedObject.swift */; };
+		9D844940259E64040088BFF1 /* RTMPTSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D4259E64030088BFF1 /* RTMPTSocket.swift */; };
+		9D844941259E64040088BFF1 /* RTMPTSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D4259E64030088BFF1 /* RTMPTSocket.swift */; };
+		9D844942259E64040088BFF1 /* RTMPStreamDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D5259E64030088BFF1 /* RTMPStreamDelegate.swift */; };
+		9D844943259E64040088BFF1 /* RTMPStreamDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D5259E64030088BFF1 /* RTMPStreamDelegate.swift */; };
+		9D844944259E64040088BFF1 /* RTMPMuxer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D6259E64030088BFF1 /* RTMPMuxer.swift */; };
+		9D844945259E64040088BFF1 /* RTMPMuxer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D6259E64030088BFF1 /* RTMPMuxer.swift */; };
+		9D844946259E64040088BFF1 /* RTMPStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D7259E64030088BFF1 /* RTMPStream.swift */; };
+		9D844947259E64040088BFF1 /* RTMPStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D7259E64030088BFF1 /* RTMPStream.swift */; };
+		9D844948259E64040088BFF1 /* AMF3Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D8259E64030088BFF1 /* AMF3Serializer.swift */; };
+		9D844949259E64040088BFF1 /* AMF3Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448D8259E64030088BFF1 /* AMF3Serializer.swift */; };
+		9D84494A259E64040088BFF1 /* CMVideoFormatDescription+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448DA259E64030088BFF1 /* CMVideoFormatDescription+Extension.swift */; };
+		9D84494B259E64040088BFF1 /* CMVideoFormatDescription+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448DA259E64030088BFF1 /* CMVideoFormatDescription+Extension.swift */; };
+		9D84494C259E64040088BFF1 /* CMSampleBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448DB259E64030088BFF1 /* CMSampleBuffer+Extension.swift */; };
+		9D84494D259E64040088BFF1 /* CMSampleBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448DB259E64030088BFF1 /* CMSampleBuffer+Extension.swift */; };
+		9D84494E259E64040088BFF1 /* VTSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448DC259E64030088BFF1 /* VTSession+Extension.swift */; };
+		9D84494F259E64040088BFF1 /* VTSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448DC259E64030088BFF1 /* VTSession+Extension.swift */; };
+		9D844950259E64040088BFF1 /* CMBlockBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448DD259E64030088BFF1 /* CMBlockBuffer+Extension.swift */; };
+		9D844951259E64040088BFF1 /* CMBlockBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448DD259E64030088BFF1 /* CMBlockBuffer+Extension.swift */; };
+		9D844952259E64040088BFF1 /* CMSampleTimingInfo+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448DE259E64030088BFF1 /* CMSampleTimingInfo+Extension.swift */; };
+		9D844953259E64040088BFF1 /* CMSampleTimingInfo+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448DE259E64030088BFF1 /* CMSampleTimingInfo+Extension.swift */; };
+		9D844954259E64040088BFF1 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448DF259E64030088BFF1 /* URL+Extension.swift */; };
+		9D844955259E64040088BFF1 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448DF259E64030088BFF1 /* URL+Extension.swift */; };
+		9D844956259E64040088BFF1 /* ExpressibleByIntegerLiteral+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E0259E64030088BFF1 /* ExpressibleByIntegerLiteral+Extension.swift */; };
+		9D844957259E64040088BFF1 /* ExpressibleByIntegerLiteral+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E0259E64030088BFF1 /* ExpressibleByIntegerLiteral+Extension.swift */; };
+		9D844958259E64040088BFF1 /* CMFormatDescription+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E1259E64030088BFF1 /* CMFormatDescription+Extension.swift */; };
+		9D844959259E64040088BFF1 /* CMFormatDescription+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E1259E64030088BFF1 /* CMFormatDescription+Extension.swift */; };
+		9D84495A259E64040088BFF1 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E2259E64030088BFF1 /* Data+Extension.swift */; };
+		9D84495B259E64040088BFF1 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E2259E64030088BFF1 /* Data+Extension.swift */; };
+		9D84495C259E64040088BFF1 /* CVPixelBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E3259E64030088BFF1 /* CVPixelBuffer+Extension.swift */; };
+		9D84495D259E64040088BFF1 /* CVPixelBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E3259E64030088BFF1 /* CVPixelBuffer+Extension.swift */; };
+		9D84495E259E64040088BFF1 /* CMAudioFormatDescription+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E4259E64030088BFF1 /* CMAudioFormatDescription+Extension.swift */; };
+		9D84495F259E64040088BFF1 /* CMAudioFormatDescription+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E4259E64030088BFF1 /* CMAudioFormatDescription+Extension.swift */; };
+		9D844960259E64040088BFF1 /* FLVFrameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E6259E64030088BFF1 /* FLVFrameType.swift */; };
+		9D844961259E64040088BFF1 /* FLVFrameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E6259E64030088BFF1 /* FLVFrameType.swift */; };
+		9D844962259E64040088BFF1 /* FLVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E7259E64030088BFF1 /* FLVReader.swift */; };
+		9D844963259E64040088BFF1 /* FLVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E7259E64030088BFF1 /* FLVReader.swift */; };
+		9D844964259E64040088BFF1 /* FLVSoundRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E8259E64030088BFF1 /* FLVSoundRate.swift */; };
+		9D844965259E64040088BFF1 /* FLVSoundRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E8259E64030088BFF1 /* FLVSoundRate.swift */; };
+		9D844966259E64040088BFF1 /* FLVVideoCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E9259E64030088BFF1 /* FLVVideoCodec.swift */; };
+		9D844967259E64040088BFF1 /* FLVVideoCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448E9259E64030088BFF1 /* FLVVideoCodec.swift */; };
+		9D844968259E64040088BFF1 /* FLVSoundSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448EA259E64030088BFF1 /* FLVSoundSize.swift */; };
+		9D844969259E64040088BFF1 /* FLVSoundSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448EA259E64030088BFF1 /* FLVSoundSize.swift */; };
+		9D84496A259E64040088BFF1 /* FLVAACPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448EB259E64030088BFF1 /* FLVAACPacket.swift */; };
+		9D84496B259E64040088BFF1 /* FLVAACPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448EB259E64030088BFF1 /* FLVAACPacket.swift */; };
+		9D84496C259E64040088BFF1 /* FLVAudioCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448EC259E64030088BFF1 /* FLVAudioCodec.swift */; };
+		9D84496D259E64040088BFF1 /* FLVAudioCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448EC259E64030088BFF1 /* FLVAudioCodec.swift */; };
+		9D84496E259E64040088BFF1 /* FLVSoundType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448ED259E64030088BFF1 /* FLVSoundType.swift */; };
+		9D84496F259E64040088BFF1 /* FLVSoundType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448ED259E64030088BFF1 /* FLVSoundType.swift */; };
+		9D844970259E64040088BFF1 /* FLVAVCPacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448EE259E64030088BFF1 /* FLVAVCPacketType.swift */; };
+		9D844971259E64040088BFF1 /* FLVAVCPacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448EE259E64030088BFF1 /* FLVAVCPacketType.swift */; };
+		9D844972259E64040088BFF1 /* FLVTagType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448EF259E64030088BFF1 /* FLVTagType.swift */; };
+		9D844973259E64040088BFF1 /* FLVTagType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448EF259E64030088BFF1 /* FLVTagType.swift */; };
+		9D844974259E64040088BFF1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F1259E64030088BFF1 /* Constants.swift */; };
+		9D844975259E64040088BFF1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F1259E64030088BFF1 /* Constants.swift */; };
+		9D844976259E64040088BFF1 /* AnyUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F2259E64030088BFF1 /* AnyUtil.swift */; };
+		9D844977259E64040088BFF1 /* AnyUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F2259E64030088BFF1 /* AnyUtil.swift */; };
+		9D844978259E64040088BFF1 /* DeviceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F3259E64030088BFF1 /* DeviceUtil.swift */; };
+		9D844979259E64040088BFF1 /* DeviceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F3259E64030088BFF1 /* DeviceUtil.swift */; };
+		9D84497A259E64040088BFF1 /* MachUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F4259E64030088BFF1 /* MachUtil.swift */; };
+		9D84497B259E64040088BFF1 /* MachUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F4259E64030088BFF1 /* MachUtil.swift */; };
+		9D84497C259E64040088BFF1 /* Running.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F5259E64030088BFF1 /* Running.swift */; };
+		9D84497D259E64040088BFF1 /* Running.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F5259E64030088BFF1 /* Running.swift */; };
+		9D84497E259E64040088BFF1 /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F6259E64030088BFF1 /* DataConvertible.swift */; };
+		9D84497F259E64040088BFF1 /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F6259E64030088BFF1 /* DataConvertible.swift */; };
+		9D844980259E64040088BFF1 /* ByteArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F7259E64030088BFF1 /* ByteArray.swift */; };
+		9D844981259E64040088BFF1 /* ByteArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F7259E64030088BFF1 /* ByteArray.swift */; };
+		9D844982259E64040088BFF1 /* DisplayLinkedQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F8259E64030088BFF1 /* DisplayLinkedQueue.swift */; };
+		9D844983259E64040088BFF1 /* DisplayLinkedQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F8259E64030088BFF1 /* DisplayLinkedQueue.swift */; };
+		9D844984259E64040088BFF1 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F9259E64030088BFF1 /* MD5.swift */; };
+		9D844985259E64040088BFF1 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448F9259E64030088BFF1 /* MD5.swift */; };
+		9D844986259E64040088BFF1 /* TimerDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448FA259E64030088BFF1 /* TimerDriver.swift */; };
+		9D844987259E64040088BFF1 /* TimerDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448FA259E64030088BFF1 /* TimerDriver.swift */; };
+		9D844988259E64040088BFF1 /* VideoGravityUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448FB259E64030088BFF1 /* VideoGravityUtil.swift */; };
+		9D844989259E64040088BFF1 /* VideoGravityUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448FB259E64030088BFF1 /* VideoGravityUtil.swift */; };
+		9D84498A259E64040088BFF1 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448FC259E64030088BFF1 /* Atomic.swift */; };
+		9D84498B259E64040088BFF1 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448FC259E64030088BFF1 /* Atomic.swift */; };
+		9D84498C259E64040088BFF1 /* CRC32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448FD259E64030088BFF1 /* CRC32.swift */; };
+		9D84498D259E64040088BFF1 /* CRC32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448FD259E64030088BFF1 /* CRC32.swift */; };
+		9D84498E259E64040088BFF1 /* EventDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448FE259E64030088BFF1 /* EventDispatcher.swift */; };
+		9D84498F259E64040088BFF1 /* EventDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8448FE259E64030088BFF1 /* EventDispatcher.swift */; };
+		9D844990259E64040088BFF1 /* H264Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844900259E64030088BFF1 /* H264Encoder.swift */; };
+		9D844991259E64040088BFF1 /* H264Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844900259E64030088BFF1 /* H264Encoder.swift */; };
+		9D844992259E64040088BFF1 /* H264Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844901259E64030088BFF1 /* H264Decoder.swift */; };
+		9D844993259E64040088BFF1 /* H264Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844901259E64030088BFF1 /* H264Decoder.swift */; };
+		9D844994259E64040088BFF1 /* AudioConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844902259E64030088BFF1 /* AudioConverter.swift */; };
+		9D844995259E64040088BFF1 /* AudioConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844902259E64030088BFF1 /* AudioConverter.swift */; };
+		9D844996259E64040088BFF1 /* ProgramSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844904259E64040088BFF1 /* ProgramSpecific.swift */; };
+		9D844997259E64040088BFF1 /* ProgramSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844904259E64040088BFF1 /* ProgramSpecific.swift */; };
+		9D844998259E64040088BFF1 /* TransportStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844905259E64040088BFF1 /* TransportStream.swift */; };
+		9D844999259E64040088BFF1 /* TransportStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844905259E64040088BFF1 /* TransportStream.swift */; };
+		9D84499A259E64040088BFF1 /* TSReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844906259E64040088BFF1 /* TSReader.swift */; };
+		9D84499B259E64040088BFF1 /* TSReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844906259E64040088BFF1 /* TSReader.swift */; };
+		9D84499C259E64040088BFF1 /* MP4Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844907259E64040088BFF1 /* MP4Reader.swift */; };
+		9D84499D259E64040088BFF1 /* MP4Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844907259E64040088BFF1 /* MP4Reader.swift */; };
+		9D84499E259E64040088BFF1 /* PacketizedElementaryStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844908259E64040088BFF1 /* PacketizedElementaryStream.swift */; };
+		9D84499F259E64040088BFF1 /* PacketizedElementaryStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844908259E64040088BFF1 /* PacketizedElementaryStream.swift */; };
+		9D8449A0259E64040088BFF1 /* H264+AVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844909259E64040088BFF1 /* H264+AVC.swift */; };
+		9D8449A1259E64040088BFF1 /* H264+AVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844909259E64040088BFF1 /* H264+AVC.swift */; };
+		9D8449A2259E64040088BFF1 /* AudioSpecificConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84490A259E64040088BFF1 /* AudioSpecificConfig.swift */; };
+		9D8449A3259E64040088BFF1 /* AudioSpecificConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84490A259E64040088BFF1 /* AudioSpecificConfig.swift */; };
+		9D8449A4259E64040088BFF1 /* TSWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84490B259E64040088BFF1 /* TSWriter.swift */; };
+		9D8449A5259E64040088BFF1 /* TSWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84490B259E64040088BFF1 /* TSWriter.swift */; };
+		9D8449A6259E64040088BFF1 /* MP4Sampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84490C259E64040088BFF1 /* MP4Sampler.swift */; };
+		9D8449A7259E64040088BFF1 /* MP4Sampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84490C259E64040088BFF1 /* MP4Sampler.swift */; };
+		9D8449A8259E64040088BFF1 /* NALUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84490D259E64040088BFF1 /* NALUnit.swift */; };
+		9D8449A9259E64040088BFF1 /* NALUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84490D259E64040088BFF1 /* NALUnit.swift */; };
+		9D8449AA259E64040088BFF1 /* VisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84490F259E64040088BFF1 /* VisualEffect.swift */; };
+		9D8449AB259E64040088BFF1 /* VisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84490F259E64040088BFF1 /* VisualEffect.swift */; };
+		9D8449AC259E64040088BFF1 /* SoundTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844910259E64040088BFF1 /* SoundTransform.swift */; };
+		9D8449AD259E64040088BFF1 /* SoundTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844910259E64040088BFF1 /* SoundTransform.swift */; };
+		9D8449AE259E64040088BFF1 /* SoundSpliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844911259E64040088BFF1 /* SoundSpliter.swift */; };
+		9D8449AF259E64040088BFF1 /* SoundSpliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844911259E64040088BFF1 /* SoundSpliter.swift */; };
+		9D8449B0259E64040088BFF1 /* ScalingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844912259E64040088BFF1 /* ScalingMode.swift */; };
+		9D8449B1259E64040088BFF1 /* ScalingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844912259E64040088BFF1 /* ScalingMode.swift */; };
+		9D8449B2259E64040088BFF1 /* AVMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844913259E64040088BFF1 /* AVMixer.swift */; };
+		9D8449B3259E64040088BFF1 /* AVMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844913259E64040088BFF1 /* AVMixer.swift */; };
+		9D8449B4259E64040088BFF1 /* VideoIOComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844914259E64040088BFF1 /* VideoIOComponent.swift */; };
+		9D8449B5259E64040088BFF1 /* VideoIOComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844914259E64040088BFF1 /* VideoIOComponent.swift */; };
+		9D8449B6259E64040088BFF1 /* AVRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844915259E64040088BFF1 /* AVRecorder.swift */; };
+		9D8449B7259E64040088BFF1 /* AVRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844915259E64040088BFF1 /* AVRecorder.swift */; };
+		9D8449B8259E64040088BFF1 /* IOComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844916259E64040088BFF1 /* IOComponent.swift */; };
+		9D8449B9259E64040088BFF1 /* IOComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844916259E64040088BFF1 /* IOComponent.swift */; };
+		9D8449BA259E64040088BFF1 /* AudioIOComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844917259E64040088BFF1 /* AudioIOComponent.swift */; };
+		9D8449BB259E64040088BFF1 /* AudioIOComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844917259E64040088BFF1 /* AudioIOComponent.swift */; };
+		9D8449BC259E64040088BFF1 /* HTTPStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844919259E64040088BFF1 /* HTTPStream.swift */; };
+		9D8449BD259E64040088BFF1 /* HTTPStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844919259E64040088BFF1 /* HTTPStream.swift */; };
+		9D8449BE259E64040088BFF1 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84491A259E64040088BFF1 /* HTTPRequest.swift */; };
+		9D8449BF259E64040088BFF1 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84491A259E64040088BFF1 /* HTTPRequest.swift */; };
+		9D8449C0259E64040088BFF1 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84491B259E64040088BFF1 /* HTTPResponse.swift */; };
+		9D8449C1259E64040088BFF1 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84491B259E64040088BFF1 /* HTTPResponse.swift */; };
+		9D8449C2259E64040088BFF1 /* M3U.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84491C259E64040088BFF1 /* M3U.swift */; };
+		9D8449C3259E64040088BFF1 /* M3U.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84491C259E64040088BFF1 /* M3U.swift */; };
+		9D8449C4259E64040088BFF1 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84491D259E64040088BFF1 /* HTTPService.swift */; };
+		9D8449C5259E64040088BFF1 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84491D259E64040088BFF1 /* HTTPService.swift */; };
+		9D8449C6259E64040088BFF1 /* SRTSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84491F259E64040088BFF1 /* SRTSocket.swift */; };
+		9D8449C7259E64040088BFF1 /* SRTSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84491F259E64040088BFF1 /* SRTSocket.swift */; };
+		9D8449C8259E64040088BFF1 /* SRTSocketOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844920259E64040088BFF1 /* SRTSocketOption.swift */; };
+		9D8449C9259E64040088BFF1 /* SRTSocketOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844920259E64040088BFF1 /* SRTSocketOption.swift */; };
+		9D8449CA259E64040088BFF1 /* SRTConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844921259E64040088BFF1 /* SRTConnection.swift */; };
+		9D8449CB259E64040088BFF1 /* SRTConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844921259E64040088BFF1 /* SRTConnection.swift */; };
+		9D8449CC259E64040088BFF1 /* SRTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844922259E64040088BFF1 /* SRTError.swift */; };
+		9D8449CD259E64040088BFF1 /* SRTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844922259E64040088BFF1 /* SRTError.swift */; };
+		9D8449CE259E64040088BFF1 /* SRTSendSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844923259E64040088BFF1 /* SRTSendSocket.swift */; };
+		9D8449CF259E64040088BFF1 /* SRTSendSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844923259E64040088BFF1 /* SRTSendSocket.swift */; };
+		9D8449D0259E64040088BFF1 /* SRTRecvSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844924259E64040088BFF1 /* SRTRecvSocket.swift */; };
+		9D8449D1259E64040088BFF1 /* SRTRecvSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844924259E64040088BFF1 /* SRTRecvSocket.swift */; };
+		9D8449D2259E64040088BFF1 /* SRTStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844925259E64040088BFF1 /* SRTStream.swift */; };
+		9D8449D3259E64040088BFF1 /* SRTStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844925259E64040088BFF1 /* SRTStream.swift */; };
+		9D8449DE259E64EE0088BFF1 /* srt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D8449DD259E64EE0088BFF1 /* srt.h */; };
+		9D8449DF259E64EE0088BFF1 /* srt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D8449DD259E64EE0088BFF1 /* srt.h */; };
+		9D8449E8259E676F0088BFF1 /* VideoIOComponentEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8449E7259E676F0088BFF1 /* VideoIOComponentEx.swift */; };
+		9D8449E9259E676F0088BFF1 /* VideoIOComponentEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8449E7259E676F0088BFF1 /* VideoIOComponentEx.swift */; };
+		9D8449EE259E67850088BFF1 /* VisionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8449ED259E67850088BFF1 /* VisionAdapter.swift */; };
+		9D8449EF259E67850088BFF1 /* VisionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8449ED259E67850088BFF1 /* VisionAdapter.swift */; };
+		9D8449F4259E679E0088BFF1 /* MyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8449F3259E679E0088BFF1 /* MyExtension.swift */; };
+		9D8449F5259E679E0088BFF1 /* MyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8449F3259E679E0088BFF1 /* MyExtension.swift */; };
+		9D844A2F259E6CB00088BFF1 /* VideoIOComponent+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A28259E6CB00088BFF1 /* VideoIOComponent+Extension.swift */; };
+		9D844A30259E6CB00088BFF1 /* VideoIOComponent+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A28259E6CB00088BFF1 /* VideoIOComponent+Extension.swift */; };
+		9D844A31259E6CB00088BFF1 /* GLHKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A29259E6CB00088BFF1 /* GLHKView.swift */; };
+		9D844A32259E6CB00088BFF1 /* GLHKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A29259E6CB00088BFF1 /* GLHKView.swift */; };
+		9D844A33259E6CB00088BFF1 /* NetStream+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A2A259E6CB00088BFF1 /* NetStream+Extension.swift */; };
+		9D844A34259E6CB00088BFF1 /* NetStream+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A2A259E6CB00088BFF1 /* NetStream+Extension.swift */; };
+		9D844A35259E6CB00088BFF1 /* HKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A2B259E6CB00088BFF1 /* HKView.swift */; };
+		9D844A36259E6CB00088BFF1 /* HKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A2B259E6CB00088BFF1 /* HKView.swift */; };
+		9D844A37259E6CB00088BFF1 /* MTHKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A2C259E6CB00088BFF1 /* MTHKView.swift */; };
+		9D844A38259E6CB00088BFF1 /* MTHKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A2C259E6CB00088BFF1 /* MTHKView.swift */; };
+		9D844A39259E6CB00088BFF1 /* ScreenCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A2D259E6CB00088BFF1 /* ScreenCaptureSession.swift */; };
+		9D844A3A259E6CB00088BFF1 /* ScreenCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A2D259E6CB00088BFF1 /* ScreenCaptureSession.swift */; };
+		9D844A3B259E6CB00088BFF1 /* DeviceUtil+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A2E259E6CB00088BFF1 /* DeviceUtil+Extenstion.swift */; };
+		9D844A3C259E6CB00088BFF1 /* DeviceUtil+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D844A2E259E6CB00088BFF1 /* DeviceUtil+Extenstion.swift */; };
 		BC0951DE23E73951009FAA72 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0951DD23E73950009FAA72 /* version.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BC0951DF23E73951009FAA72 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0951DD23E73950009FAA72 /* version.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BC3A695623E735A80025FC83 /* fec.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3A695023E735A70025FC83 /* fec.h */; };
@@ -162,11 +338,7 @@
 		296FB20A21A6BD9800CB4770 /* srt4udt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = srt4udt.h; path = Vendor/SRT/Includes/srt4udt.h; sourceTree = SOURCE_ROOT; };
 		296FB20B21A6BD9800CB4770 /* logging_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = logging_api.h; path = Vendor/SRT/Includes/logging_api.h; sourceTree = SOURCE_ROOT; };
 		296FB20E21A6BD9800CB4770 /* platform_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = platform_sys.h; path = Vendor/SRT/Includes/platform_sys.h; sourceTree = SOURCE_ROOT; };
-		296FB21021A6BD9900CB4770 /* srt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = srt.h; path = Vendor/SRT/Includes/srt.h; sourceTree = SOURCE_ROOT; };
-		296FB22721A6BEE700CB4770 /* SRTSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRTSocket.swift; sourceTree = "<group>"; };
 		296FB22F21A6C2C700CB4770 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		296FB23621A6D58900CB4770 /* SRTStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRTStream.swift; sourceTree = "<group>"; };
-		296FB23C21A6E0D100CB4770 /* SRTSocketOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRTSocketOption.swift; sourceTree = "<group>"; };
 		296FB24121A7005D00CB4770 /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		296FB24221A7005E00CB4770 /* logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
 		296FB24321A7005E00CB4770 /* channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channel.h; sourceTree = "<group>"; };
@@ -188,16 +360,108 @@
 		296FB25421A7006000CB4770 /* window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
 		296FB25521A7006000CB4770 /* epoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = epoll.h; sourceTree = "<group>"; };
 		296FB28021A7052000CB4770 /* build-srt-iOS.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-srt-iOS.sh"; path = "Vendor/SRT/build-srt-iOS.sh"; sourceTree = SOURCE_ROOT; };
-		296FB28321A70D8100CB4770 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		296FB28521A70D9600CB4770 /* SRTError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRTError.swift; sourceTree = "<group>"; };
-		296FB28921A800CF00CB4770 /* SRTConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRTConnection.swift; sourceTree = "<group>"; };
 		296FB29521A8121E00CB4770 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
-		296FB29E21A85A7000CB4770 /* SRTIncomingSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRTIncomingSocket.swift; sourceTree = "<group>"; };
-		296FB2A121A85A8400CB4770 /* SRTOutgoingSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRTOutgoingSocket.swift; sourceTree = "<group>"; };
 		297BA66D21AC8D3700CD14EA /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		29B2C56B21B3CA8A00B1609D /* libsrt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsrt.a; path = /usr/local/Cellar/srt/1.3.1/lib/libsrt.a; sourceTree = "<absolute>"; };
-		29D0939821A998AF003E6E1F /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
 		29D093A321A9EFAD003E6E1F /* build-openssl-iOS.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "build-openssl-iOS.sh"; sourceTree = "<group>"; };
+		9D8448C6259E64030088BFF1 /* NetSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetSocket.swift; sourceTree = "<group>"; };
+		9D8448C7259E64030088BFF1 /* MIME.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIME.swift; sourceTree = "<group>"; };
+		9D8448C8259E64030088BFF1 /* NetClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetClient.swift; sourceTree = "<group>"; };
+		9D8448C9259E64030088BFF1 /* NetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetService.swift; sourceTree = "<group>"; };
+		9D8448CA259E64030088BFF1 /* NetStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetStream.swift; sourceTree = "<group>"; };
+		9D8448CC259E64030088BFF1 /* RTMPSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTMPSocket.swift; sourceTree = "<group>"; };
+		9D8448CD259E64030088BFF1 /* ASClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASClass.swift; sourceTree = "<group>"; };
+		9D8448CE259E64030088BFF1 /* RTMPHandshake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTMPHandshake.swift; sourceTree = "<group>"; };
+		9D8448CF259E64030088BFF1 /* RTMPMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTMPMessage.swift; sourceTree = "<group>"; };
+		9D8448D0259E64030088BFF1 /* RTMPConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTMPConnection.swift; sourceTree = "<group>"; };
+		9D8448D1259E64030088BFF1 /* AMF0Serializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMF0Serializer.swift; sourceTree = "<group>"; };
+		9D8448D2259E64030088BFF1 /* RTMPChunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTMPChunk.swift; sourceTree = "<group>"; };
+		9D8448D3259E64030088BFF1 /* RTMPSharedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTMPSharedObject.swift; sourceTree = "<group>"; };
+		9D8448D4259E64030088BFF1 /* RTMPTSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTMPTSocket.swift; sourceTree = "<group>"; };
+		9D8448D5259E64030088BFF1 /* RTMPStreamDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTMPStreamDelegate.swift; sourceTree = "<group>"; };
+		9D8448D6259E64030088BFF1 /* RTMPMuxer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTMPMuxer.swift; sourceTree = "<group>"; };
+		9D8448D7259E64030088BFF1 /* RTMPStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTMPStream.swift; sourceTree = "<group>"; };
+		9D8448D8259E64030088BFF1 /* AMF3Serializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMF3Serializer.swift; sourceTree = "<group>"; };
+		9D8448DA259E64030088BFF1 /* CMVideoFormatDescription+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMVideoFormatDescription+Extension.swift"; sourceTree = "<group>"; };
+		9D8448DB259E64030088BFF1 /* CMSampleBuffer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMSampleBuffer+Extension.swift"; sourceTree = "<group>"; };
+		9D8448DC259E64030088BFF1 /* VTSession+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VTSession+Extension.swift"; sourceTree = "<group>"; };
+		9D8448DD259E64030088BFF1 /* CMBlockBuffer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMBlockBuffer+Extension.swift"; sourceTree = "<group>"; };
+		9D8448DE259E64030088BFF1 /* CMSampleTimingInfo+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMSampleTimingInfo+Extension.swift"; sourceTree = "<group>"; };
+		9D8448DF259E64030088BFF1 /* URL+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		9D8448E0259E64030088BFF1 /* ExpressibleByIntegerLiteral+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExpressibleByIntegerLiteral+Extension.swift"; sourceTree = "<group>"; };
+		9D8448E1259E64030088BFF1 /* CMFormatDescription+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMFormatDescription+Extension.swift"; sourceTree = "<group>"; };
+		9D8448E2259E64030088BFF1 /* Data+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		9D8448E3259E64030088BFF1 /* CVPixelBuffer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Extension.swift"; sourceTree = "<group>"; };
+		9D8448E4259E64030088BFF1 /* CMAudioFormatDescription+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMAudioFormatDescription+Extension.swift"; sourceTree = "<group>"; };
+		9D8448E6259E64030088BFF1 /* FLVFrameType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLVFrameType.swift; sourceTree = "<group>"; };
+		9D8448E7259E64030088BFF1 /* FLVReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLVReader.swift; sourceTree = "<group>"; };
+		9D8448E8259E64030088BFF1 /* FLVSoundRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLVSoundRate.swift; sourceTree = "<group>"; };
+		9D8448E9259E64030088BFF1 /* FLVVideoCodec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLVVideoCodec.swift; sourceTree = "<group>"; };
+		9D8448EA259E64030088BFF1 /* FLVSoundSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLVSoundSize.swift; sourceTree = "<group>"; };
+		9D8448EB259E64030088BFF1 /* FLVAACPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLVAACPacket.swift; sourceTree = "<group>"; };
+		9D8448EC259E64030088BFF1 /* FLVAudioCodec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLVAudioCodec.swift; sourceTree = "<group>"; };
+		9D8448ED259E64030088BFF1 /* FLVSoundType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLVSoundType.swift; sourceTree = "<group>"; };
+		9D8448EE259E64030088BFF1 /* FLVAVCPacketType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLVAVCPacketType.swift; sourceTree = "<group>"; };
+		9D8448EF259E64030088BFF1 /* FLVTagType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLVTagType.swift; sourceTree = "<group>"; };
+		9D8448F1259E64030088BFF1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9D8448F2259E64030088BFF1 /* AnyUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyUtil.swift; sourceTree = "<group>"; };
+		9D8448F3259E64030088BFF1 /* DeviceUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceUtil.swift; sourceTree = "<group>"; };
+		9D8448F4259E64030088BFF1 /* MachUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachUtil.swift; sourceTree = "<group>"; };
+		9D8448F5259E64030088BFF1 /* Running.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Running.swift; sourceTree = "<group>"; };
+		9D8448F6259E64030088BFF1 /* DataConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertible.swift; sourceTree = "<group>"; };
+		9D8448F7259E64030088BFF1 /* ByteArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByteArray.swift; sourceTree = "<group>"; };
+		9D8448F8259E64030088BFF1 /* DisplayLinkedQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayLinkedQueue.swift; sourceTree = "<group>"; };
+		9D8448F9259E64030088BFF1 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		9D8448FA259E64030088BFF1 /* TimerDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerDriver.swift; sourceTree = "<group>"; };
+		9D8448FB259E64030088BFF1 /* VideoGravityUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoGravityUtil.swift; sourceTree = "<group>"; };
+		9D8448FC259E64030088BFF1 /* Atomic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
+		9D8448FD259E64030088BFF1 /* CRC32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRC32.swift; sourceTree = "<group>"; };
+		9D8448FE259E64030088BFF1 /* EventDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDispatcher.swift; sourceTree = "<group>"; };
+		9D844900259E64030088BFF1 /* H264Encoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H264Encoder.swift; sourceTree = "<group>"; };
+		9D844901259E64030088BFF1 /* H264Decoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H264Decoder.swift; sourceTree = "<group>"; };
+		9D844902259E64030088BFF1 /* AudioConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioConverter.swift; sourceTree = "<group>"; };
+		9D844904259E64040088BFF1 /* ProgramSpecific.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramSpecific.swift; sourceTree = "<group>"; };
+		9D844905259E64040088BFF1 /* TransportStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportStream.swift; sourceTree = "<group>"; };
+		9D844906259E64040088BFF1 /* TSReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSReader.swift; sourceTree = "<group>"; };
+		9D844907259E64040088BFF1 /* MP4Reader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MP4Reader.swift; sourceTree = "<group>"; };
+		9D844908259E64040088BFF1 /* PacketizedElementaryStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacketizedElementaryStream.swift; sourceTree = "<group>"; };
+		9D844909259E64040088BFF1 /* H264+AVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "H264+AVC.swift"; sourceTree = "<group>"; };
+		9D84490A259E64040088BFF1 /* AudioSpecificConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioSpecificConfig.swift; sourceTree = "<group>"; };
+		9D84490B259E64040088BFF1 /* TSWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSWriter.swift; sourceTree = "<group>"; };
+		9D84490C259E64040088BFF1 /* MP4Sampler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MP4Sampler.swift; sourceTree = "<group>"; };
+		9D84490D259E64040088BFF1 /* NALUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NALUnit.swift; sourceTree = "<group>"; };
+		9D84490F259E64040088BFF1 /* VisualEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffect.swift; sourceTree = "<group>"; };
+		9D844910259E64040088BFF1 /* SoundTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundTransform.swift; sourceTree = "<group>"; };
+		9D844911259E64040088BFF1 /* SoundSpliter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundSpliter.swift; sourceTree = "<group>"; };
+		9D844912259E64040088BFF1 /* ScalingMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScalingMode.swift; sourceTree = "<group>"; };
+		9D844913259E64040088BFF1 /* AVMixer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVMixer.swift; sourceTree = "<group>"; };
+		9D844914259E64040088BFF1 /* VideoIOComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoIOComponent.swift; sourceTree = "<group>"; };
+		9D844915259E64040088BFF1 /* AVRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVRecorder.swift; sourceTree = "<group>"; };
+		9D844916259E64040088BFF1 /* IOComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOComponent.swift; sourceTree = "<group>"; };
+		9D844917259E64040088BFF1 /* AudioIOComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioIOComponent.swift; sourceTree = "<group>"; };
+		9D844919259E64040088BFF1 /* HTTPStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStream.swift; sourceTree = "<group>"; };
+		9D84491A259E64040088BFF1 /* HTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		9D84491B259E64040088BFF1 /* HTTPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
+		9D84491C259E64040088BFF1 /* M3U.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M3U.swift; sourceTree = "<group>"; };
+		9D84491D259E64040088BFF1 /* HTTPService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
+		9D84491F259E64040088BFF1 /* SRTSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRTSocket.swift; sourceTree = "<group>"; };
+		9D844920259E64040088BFF1 /* SRTSocketOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRTSocketOption.swift; sourceTree = "<group>"; };
+		9D844921259E64040088BFF1 /* SRTConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRTConnection.swift; sourceTree = "<group>"; };
+		9D844922259E64040088BFF1 /* SRTError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRTError.swift; sourceTree = "<group>"; };
+		9D844923259E64040088BFF1 /* SRTSendSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRTSendSocket.swift; sourceTree = "<group>"; };
+		9D844924259E64040088BFF1 /* SRTRecvSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRTRecvSocket.swift; sourceTree = "<group>"; };
+		9D844925259E64040088BFF1 /* SRTStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRTStream.swift; sourceTree = "<group>"; };
+		9D8449DD259E64EE0088BFF1 /* srt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = srt.h; path = "../../../../../../../Downloads/MyLive-master/MyLive/HaishinKit/Vendor/SRT/Includes/srt.h"; sourceTree = "<group>"; };
+		9D8449E7259E676F0088BFF1 /* VideoIOComponentEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoIOComponentEx.swift; sourceTree = "<group>"; };
+		9D8449ED259E67850088BFF1 /* VisionAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionAdapter.swift; sourceTree = "<group>"; };
+		9D8449F3259E679E0088BFF1 /* MyExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyExtension.swift; sourceTree = "<group>"; };
+		9D844A28259E6CB00088BFF1 /* VideoIOComponent+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VideoIOComponent+Extension.swift"; sourceTree = "<group>"; };
+		9D844A29259E6CB00088BFF1 /* GLHKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLHKView.swift; sourceTree = "<group>"; };
+		9D844A2A259E6CB00088BFF1 /* NetStream+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetStream+Extension.swift"; sourceTree = "<group>"; };
+		9D844A2B259E6CB00088BFF1 /* HKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKView.swift; sourceTree = "<group>"; };
+		9D844A2C259E6CB00088BFF1 /* MTHKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTHKView.swift; sourceTree = "<group>"; };
+		9D844A2D259E6CB00088BFF1 /* ScreenCaptureSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenCaptureSession.swift; sourceTree = "<group>"; };
+		9D844A2E259E6CB00088BFF1 /* DeviceUtil+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeviceUtil+Extenstion.swift"; sourceTree = "<group>"; };
 		BC0951DD23E73950009FAA72 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
 		BC3A695023E735A70025FC83 /* fec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fec.h; sourceTree = "<group>"; };
 		BC3A695123E735A70025FC83 /* congctl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = congctl.h; sourceTree = "<group>"; };
@@ -291,9 +555,17 @@
 		2923D2BD21733B63000A5E9B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				29D0939721A99896003E6E1F /* Extension */,
-				296FB22621A6BED100CB4770 /* SRT */,
-				297BA66121AC63C700CD14EA /* Util */,
+				9D8449E6259E67570088BFF1 /* Koji */,
+				9D8448FF259E64030088BFF1 /* Codec */,
+				9D8448D9259E64030088BFF1 /* Extension */,
+				9D8448E5259E64030088BFF1 /* FLV */,
+				9D844918259E64040088BFF1 /* HTTP */,
+				9D844903259E64040088BFF1 /* ISO */,
+				9D84490E259E64040088BFF1 /* Media */,
+				9D8448C5259E64030088BFF1 /* Net */,
+				9D8448CB259E64030088BFF1 /* RTMP */,
+				9D84491E259E64040088BFF1 /* SRT */,
+				9D8448F0259E64030088BFF1 /* Util */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -329,6 +601,13 @@
 		2923D2DA21734075000A5E9B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				9D844A2E259E6CB00088BFF1 /* DeviceUtil+Extenstion.swift */,
+				9D844A29259E6CB00088BFF1 /* GLHKView.swift */,
+				9D844A2B259E6CB00088BFF1 /* HKView.swift */,
+				9D844A2C259E6CB00088BFF1 /* MTHKView.swift */,
+				9D844A2A259E6CB00088BFF1 /* NetStream+Extension.swift */,
+				9D844A2D259E6CB00088BFF1 /* ScreenCaptureSession.swift */,
+				9D844A28259E6CB00088BFF1 /* VideoIOComponent+Extension.swift */,
 				296FB23221A6C7E500CB4770 /* Supporting Files */,
 				2923D2DB21734075000A5E9B /* SRTHaishinKit.h */,
 				2923D2DC21734075000A5E9B /* Info.plist */,
@@ -389,6 +668,7 @@
 				296FB24F21A7005F00CB4770 /* common.h */,
 				BC3A695123E735A70025FC83 /* congctl.h */,
 				296FB24921A7005E00CB4770 /* core.h */,
+				9D8449DD259E64EE0088BFF1 /* srt.h */,
 				296FB25021A7005F00CB4770 /* crypto.h */,
 				296FB25521A7006000CB4770 /* epoll.h */,
 				BC3A695023E735A70025FC83 /* fec.h */,
@@ -405,7 +685,6 @@
 				296FB20E21A6BD9800CB4770 /* platform_sys.h */,
 				296FB24121A7005D00CB4770 /* queue.h */,
 				296FB24521A7005E00CB4770 /* srt_compat.h */,
-				296FB21021A6BD9900CB4770 /* srt.h */,
 				296FB20A21A6BD9800CB4770 /* srt4udt.h */,
 				296FB24B21A7005F00CB4770 /* threadname.h */,
 				296FB24D21A7005F00CB4770 /* udt.h */,
@@ -414,20 +693,6 @@
 				296FB25421A7006000CB4770 /* window.h */,
 			);
 			path = Includes;
-			sourceTree = "<group>";
-		};
-		296FB22621A6BED100CB4770 /* SRT */ = {
-			isa = PBXGroup;
-			children = (
-				296FB28921A800CF00CB4770 /* SRTConnection.swift */,
-				296FB28521A70D9600CB4770 /* SRTError.swift */,
-				296FB29E21A85A7000CB4770 /* SRTIncomingSocket.swift */,
-				296FB2A121A85A8400CB4770 /* SRTOutgoingSocket.swift */,
-				296FB22721A6BEE700CB4770 /* SRTSocket.swift */,
-				296FB23C21A6E0D100CB4770 /* SRTSocketOption.swift */,
-				296FB23621A6D58900CB4770 /* SRTStream.swift */,
-			);
-			path = SRT;
 			sourceTree = "<group>";
 		};
 		296FB23221A6C7E500CB4770 /* Supporting Files */ = {
@@ -446,20 +711,179 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		297BA66121AC63C700CD14EA /* Util */ = {
+		9D8448C5259E64030088BFF1 /* Net */ = {
 			isa = PBXGroup;
 			children = (
-				296FB28321A70D8100CB4770 /* Constants.swift */,
+				9D8448C6259E64030088BFF1 /* NetSocket.swift */,
+				9D8448C7259E64030088BFF1 /* MIME.swift */,
+				9D8448C8259E64030088BFF1 /* NetClient.swift */,
+				9D8448C9259E64030088BFF1 /* NetService.swift */,
+				9D8448CA259E64030088BFF1 /* NetStream.swift */,
 			);
-			path = Util;
+			name = Net;
+			path = "../../../../../Downloads/MyLive-master/MyLive/HaishinKit/Sources/Net";
 			sourceTree = "<group>";
 		};
-		29D0939721A99896003E6E1F /* Extension */ = {
+		9D8448CB259E64030088BFF1 /* RTMP */ = {
 			isa = PBXGroup;
 			children = (
-				29D0939821A998AF003E6E1F /* Data+Extension.swift */,
+				9D8448CC259E64030088BFF1 /* RTMPSocket.swift */,
+				9D8448CD259E64030088BFF1 /* ASClass.swift */,
+				9D8448CE259E64030088BFF1 /* RTMPHandshake.swift */,
+				9D8448CF259E64030088BFF1 /* RTMPMessage.swift */,
+				9D8448D0259E64030088BFF1 /* RTMPConnection.swift */,
+				9D8448D1259E64030088BFF1 /* AMF0Serializer.swift */,
+				9D8448D2259E64030088BFF1 /* RTMPChunk.swift */,
+				9D8448D3259E64030088BFF1 /* RTMPSharedObject.swift */,
+				9D8448D4259E64030088BFF1 /* RTMPTSocket.swift */,
+				9D8448D5259E64030088BFF1 /* RTMPStreamDelegate.swift */,
+				9D8448D6259E64030088BFF1 /* RTMPMuxer.swift */,
+				9D8448D7259E64030088BFF1 /* RTMPStream.swift */,
+				9D8448D8259E64030088BFF1 /* AMF3Serializer.swift */,
 			);
-			path = Extension;
+			path = RTMP;
+			sourceTree = "<group>";
+		};
+		9D8448D9259E64030088BFF1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9D8448DA259E64030088BFF1 /* CMVideoFormatDescription+Extension.swift */,
+				9D8448DB259E64030088BFF1 /* CMSampleBuffer+Extension.swift */,
+				9D8448DC259E64030088BFF1 /* VTSession+Extension.swift */,
+				9D8448DD259E64030088BFF1 /* CMBlockBuffer+Extension.swift */,
+				9D8448DE259E64030088BFF1 /* CMSampleTimingInfo+Extension.swift */,
+				9D8448DF259E64030088BFF1 /* URL+Extension.swift */,
+				9D8448E0259E64030088BFF1 /* ExpressibleByIntegerLiteral+Extension.swift */,
+				9D8448E1259E64030088BFF1 /* CMFormatDescription+Extension.swift */,
+				9D8448E2259E64030088BFF1 /* Data+Extension.swift */,
+				9D8448E3259E64030088BFF1 /* CVPixelBuffer+Extension.swift */,
+				9D8448E4259E64030088BFF1 /* CMAudioFormatDescription+Extension.swift */,
+			);
+			name = Extension;
+			path = "../../../../../Downloads/MyLive-master/MyLive/HaishinKit/Sources/Extension";
+			sourceTree = "<group>";
+		};
+		9D8448E5259E64030088BFF1 /* FLV */ = {
+			isa = PBXGroup;
+			children = (
+				9D8448E6259E64030088BFF1 /* FLVFrameType.swift */,
+				9D8448E7259E64030088BFF1 /* FLVReader.swift */,
+				9D8448E8259E64030088BFF1 /* FLVSoundRate.swift */,
+				9D8448E9259E64030088BFF1 /* FLVVideoCodec.swift */,
+				9D8448EA259E64030088BFF1 /* FLVSoundSize.swift */,
+				9D8448EB259E64030088BFF1 /* FLVAACPacket.swift */,
+				9D8448EC259E64030088BFF1 /* FLVAudioCodec.swift */,
+				9D8448ED259E64030088BFF1 /* FLVSoundType.swift */,
+				9D8448EE259E64030088BFF1 /* FLVAVCPacketType.swift */,
+				9D8448EF259E64030088BFF1 /* FLVTagType.swift */,
+			);
+			path = FLV;
+			sourceTree = "<group>";
+		};
+		9D8448F0259E64030088BFF1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9D8448F1259E64030088BFF1 /* Constants.swift */,
+				9D8448F2259E64030088BFF1 /* AnyUtil.swift */,
+				9D8448F3259E64030088BFF1 /* DeviceUtil.swift */,
+				9D8448F4259E64030088BFF1 /* MachUtil.swift */,
+				9D8448F5259E64030088BFF1 /* Running.swift */,
+				9D8448F6259E64030088BFF1 /* DataConvertible.swift */,
+				9D8448F7259E64030088BFF1 /* ByteArray.swift */,
+				9D8448F8259E64030088BFF1 /* DisplayLinkedQueue.swift */,
+				9D8448F9259E64030088BFF1 /* MD5.swift */,
+				9D8448FA259E64030088BFF1 /* TimerDriver.swift */,
+				9D8448FB259E64030088BFF1 /* VideoGravityUtil.swift */,
+				9D8448FC259E64030088BFF1 /* Atomic.swift */,
+				9D8448FD259E64030088BFF1 /* CRC32.swift */,
+				9D8448FE259E64030088BFF1 /* EventDispatcher.swift */,
+			);
+			name = Util;
+			path = "../../../../../Downloads/MyLive-master/MyLive/HaishinKit/Sources/Util";
+			sourceTree = "<group>";
+		};
+		9D8448FF259E64030088BFF1 /* Codec */ = {
+			isa = PBXGroup;
+			children = (
+				9D844900259E64030088BFF1 /* H264Encoder.swift */,
+				9D844901259E64030088BFF1 /* H264Decoder.swift */,
+				9D844902259E64030088BFF1 /* AudioConverter.swift */,
+			);
+			name = Codec;
+			path = "../../../../../Downloads/MyLive-master/MyLive/HaishinKit/Sources/Codec";
+			sourceTree = "<group>";
+		};
+		9D844903259E64040088BFF1 /* ISO */ = {
+			isa = PBXGroup;
+			children = (
+				9D844904259E64040088BFF1 /* ProgramSpecific.swift */,
+				9D844905259E64040088BFF1 /* TransportStream.swift */,
+				9D844906259E64040088BFF1 /* TSReader.swift */,
+				9D844907259E64040088BFF1 /* MP4Reader.swift */,
+				9D844908259E64040088BFF1 /* PacketizedElementaryStream.swift */,
+				9D844909259E64040088BFF1 /* H264+AVC.swift */,
+				9D84490A259E64040088BFF1 /* AudioSpecificConfig.swift */,
+				9D84490B259E64040088BFF1 /* TSWriter.swift */,
+				9D84490C259E64040088BFF1 /* MP4Sampler.swift */,
+				9D84490D259E64040088BFF1 /* NALUnit.swift */,
+			);
+			name = ISO;
+			path = "../../../../../Downloads/MyLive-master/MyLive/HaishinKit/Sources/ISO";
+			sourceTree = "<group>";
+		};
+		9D84490E259E64040088BFF1 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				9D84490F259E64040088BFF1 /* VisualEffect.swift */,
+				9D844910259E64040088BFF1 /* SoundTransform.swift */,
+				9D844911259E64040088BFF1 /* SoundSpliter.swift */,
+				9D844912259E64040088BFF1 /* ScalingMode.swift */,
+				9D844913259E64040088BFF1 /* AVMixer.swift */,
+				9D844914259E64040088BFF1 /* VideoIOComponent.swift */,
+				9D844915259E64040088BFF1 /* AVRecorder.swift */,
+				9D844916259E64040088BFF1 /* IOComponent.swift */,
+				9D844917259E64040088BFF1 /* AudioIOComponent.swift */,
+			);
+			name = Media;
+			path = "../../../../../Downloads/MyLive-master/MyLive/HaishinKit/Sources/Media";
+			sourceTree = "<group>";
+		};
+		9D844918259E64040088BFF1 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				9D844919259E64040088BFF1 /* HTTPStream.swift */,
+				9D84491A259E64040088BFF1 /* HTTPRequest.swift */,
+				9D84491B259E64040088BFF1 /* HTTPResponse.swift */,
+				9D84491C259E64040088BFF1 /* M3U.swift */,
+				9D84491D259E64040088BFF1 /* HTTPService.swift */,
+			);
+			name = HTTP;
+			path = "../../../../../Downloads/MyLive-master/MyLive/HaishinKit/Sources/HTTP";
+			sourceTree = "<group>";
+		};
+		9D84491E259E64040088BFF1 /* SRT */ = {
+			isa = PBXGroup;
+			children = (
+				9D84491F259E64040088BFF1 /* SRTSocket.swift */,
+				9D844920259E64040088BFF1 /* SRTSocketOption.swift */,
+				9D844921259E64040088BFF1 /* SRTConnection.swift */,
+				9D844922259E64040088BFF1 /* SRTError.swift */,
+				9D844923259E64040088BFF1 /* SRTSendSocket.swift */,
+				9D844924259E64040088BFF1 /* SRTRecvSocket.swift */,
+				9D844925259E64040088BFF1 /* SRTStream.swift */,
+			);
+			name = SRT;
+			path = "../../../../../Downloads/MyLive-master/MyLive/HaishinKit/Sources/SRT";
+			sourceTree = "<group>";
+		};
+		9D8449E6259E67570088BFF1 /* Koji */ = {
+			isa = PBXGroup;
+			children = (
+				9D8449F3259E679E0088BFF1 /* MyExtension.swift */,
+				9D8449ED259E67850088BFF1 /* VisionAdapter.swift */,
+				9D8449E7259E676F0088BFF1 /* VideoIOComponentEx.swift */,
+			);
+			path = Koji;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -469,6 +893,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D8449DE259E64EE0088BFF1 /* srt.h in Headers */,
 				BC3A695C23E735A80025FC83 /* packetfilter_builtin.h in Headers */,
 				296FB25E21A7006000CB4770 /* core.h in Headers */,
 				296FB26321A7006000CB4770 /* netinet_any.h in Headers */,
@@ -486,7 +911,6 @@
 				BC3A695623E735A80025FC83 /* fec.h in Headers */,
 				296FB26221A7006000CB4770 /* udt.h in Headers */,
 				2923D2C821733C3D000A5E9B /* SRTHaishinKit.h in Headers */,
-				296FB21721A6BD9900CB4770 /* srt.h in Headers */,
 				296FB26021A7006000CB4770 /* threadname.h in Headers */,
 				296FB26521A7006000CB4770 /* crypto.h in Headers */,
 				296FB25621A7006000CB4770 /* queue.h in Headers */,
@@ -508,6 +932,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D8449DF259E64EE0088BFF1 /* srt.h in Headers */,
 				BC3A695D23E735A80025FC83 /* packetfilter_builtin.h in Headers */,
 				296FB26F21A7009400CB4770 /* common.h in Headers */,
 				296FB26D21A7008200CB4770 /* cache.h in Headers */,
@@ -517,7 +942,6 @@
 				296FB27721A700A700CB4770 /* netinet_any.h in Headers */,
 				296FB27221A7009C00CB4770 /* epoll.h in Headers */,
 				296FB26C21A7007F00CB4770 /* buffer.h in Headers */,
-				296FB21B21A6BE2A00CB4770 /* srt.h in Headers */,
 				2923D2DD21734075000A5E9B /* SRTHaishinKit.h in Headers */,
 				296FB27F21A700BC00CB4770 /* window.h in Headers */,
 				296FB21821A6BE2300CB4770 /* logging_api.h in Headers */,
@@ -767,15 +1191,103 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				296FB23D21A6E0D100CB4770 /* SRTSocketOption.swift in Sources */,
-				296FB28421A70D8100CB4770 /* Constants.swift in Sources */,
-				296FB28A21A800CF00CB4770 /* SRTConnection.swift in Sources */,
-				296FB2A221A85A8400CB4770 /* SRTOutgoingSocket.swift in Sources */,
-				296FB28621A70D9600CB4770 /* SRTError.swift in Sources */,
-				296FB23721A6D58900CB4770 /* SRTStream.swift in Sources */,
-				29D0939921A998AF003E6E1F /* Data+Extension.swift in Sources */,
-				296FB29F21A85A7000CB4770 /* SRTIncomingSocket.swift in Sources */,
-				296FB22821A6BEE700CB4770 /* SRTSocket.swift in Sources */,
+				9D844A3B259E6CB00088BFF1 /* DeviceUtil+Extenstion.swift in Sources */,
+				9D844934259E64040088BFF1 /* RTMPHandshake.swift in Sources */,
+				9D8449AA259E64040088BFF1 /* VisualEffect.swift in Sources */,
+				9D844994259E64040088BFF1 /* AudioConverter.swift in Sources */,
+				9D844966259E64040088BFF1 /* FLVVideoCodec.swift in Sources */,
+				9D844936259E64040088BFF1 /* RTMPMessage.swift in Sources */,
+				9D844976259E64040088BFF1 /* AnyUtil.swift in Sources */,
+				9D84498A259E64040088BFF1 /* Atomic.swift in Sources */,
+				9D8449BA259E64040088BFF1 /* AudioIOComponent.swift in Sources */,
+				9D84499A259E64040088BFF1 /* TSReader.swift in Sources */,
+				9D84496A259E64040088BFF1 /* FLVAACPacket.swift in Sources */,
+				9D844982259E64040088BFF1 /* DisplayLinkedQueue.swift in Sources */,
+				9D8449B0259E64040088BFF1 /* ScalingMode.swift in Sources */,
+				9D844A2F259E6CB00088BFF1 /* VideoIOComponent+Extension.swift in Sources */,
+				9D844926259E64040088BFF1 /* NetSocket.swift in Sources */,
+				9D844956259E64040088BFF1 /* ExpressibleByIntegerLiteral+Extension.swift in Sources */,
+				9D844930259E64040088BFF1 /* RTMPSocket.swift in Sources */,
+				9D844970259E64040088BFF1 /* FLVAVCPacketType.swift in Sources */,
+				9D8449CC259E64040088BFF1 /* SRTError.swift in Sources */,
+				9D8449A4259E64040088BFF1 /* TSWriter.swift in Sources */,
+				9D844938259E64040088BFF1 /* RTMPConnection.swift in Sources */,
+				9D844962259E64040088BFF1 /* FLVReader.swift in Sources */,
+				9D8449BC259E64040088BFF1 /* HTTPStream.swift in Sources */,
+				9D84493E259E64040088BFF1 /* RTMPSharedObject.swift in Sources */,
+				9D844942259E64040088BFF1 /* RTMPStreamDelegate.swift in Sources */,
+				9D84498C259E64040088BFF1 /* CRC32.swift in Sources */,
+				9D844950259E64040088BFF1 /* CMBlockBuffer+Extension.swift in Sources */,
+				9D8449C0259E64040088BFF1 /* HTTPResponse.swift in Sources */,
+				9D844964259E64040088BFF1 /* FLVSoundRate.swift in Sources */,
+				9D8449A6259E64040088BFF1 /* MP4Sampler.swift in Sources */,
+				9D84493A259E64040088BFF1 /* AMF0Serializer.swift in Sources */,
+				9D8449A8259E64040088BFF1 /* NALUnit.swift in Sources */,
+				9D844A37259E6CB00088BFF1 /* MTHKView.swift in Sources */,
+				9D844974259E64040088BFF1 /* Constants.swift in Sources */,
+				9D8449B4259E64040088BFF1 /* VideoIOComponent.swift in Sources */,
+				9D8449A0259E64040088BFF1 /* H264+AVC.swift in Sources */,
+				9D8449A2259E64040088BFF1 /* AudioSpecificConfig.swift in Sources */,
+				9D84497C259E64040088BFF1 /* Running.swift in Sources */,
+				9D84495E259E64040088BFF1 /* CMAudioFormatDescription+Extension.swift in Sources */,
+				9D844996259E64040088BFF1 /* ProgramSpecific.swift in Sources */,
+				9D844A31259E6CB00088BFF1 /* GLHKView.swift in Sources */,
+				9D8449B6259E64040088BFF1 /* AVRecorder.swift in Sources */,
+				9D844992259E64040088BFF1 /* H264Decoder.swift in Sources */,
+				9D84498E259E64040088BFF1 /* EventDispatcher.swift in Sources */,
+				9D844986259E64040088BFF1 /* TimerDriver.swift in Sources */,
+				9D84499E259E64040088BFF1 /* PacketizedElementaryStream.swift in Sources */,
+				9D844A39259E6CB00088BFF1 /* ScreenCaptureSession.swift in Sources */,
+				9D844990259E64040088BFF1 /* H264Encoder.swift in Sources */,
+				9D844A33259E6CB00088BFF1 /* NetStream+Extension.swift in Sources */,
+				9D84493C259E64040088BFF1 /* RTMPChunk.swift in Sources */,
+				9D84497E259E64040088BFF1 /* DataConvertible.swift in Sources */,
+				9D8449B8259E64040088BFF1 /* IOComponent.swift in Sources */,
+				9D8449C4259E64040088BFF1 /* HTTPService.swift in Sources */,
+				9D8449AE259E64040088BFF1 /* SoundSpliter.swift in Sources */,
+				9D8449C8259E64040088BFF1 /* SRTSocketOption.swift in Sources */,
+				9D844972259E64040088BFF1 /* FLVTagType.swift in Sources */,
+				9D844952259E64040088BFF1 /* CMSampleTimingInfo+Extension.swift in Sources */,
+				9D84494C259E64040088BFF1 /* CMSampleBuffer+Extension.swift in Sources */,
+				9D844998259E64040088BFF1 /* TransportStream.swift in Sources */,
+				9D84496C259E64040088BFF1 /* FLVAudioCodec.swift in Sources */,
+				9D844A35259E6CB00088BFF1 /* HKView.swift in Sources */,
+				9D844984259E64040088BFF1 /* MD5.swift in Sources */,
+				9D8449CA259E64040088BFF1 /* SRTConnection.swift in Sources */,
+				9D8449AC259E64040088BFF1 /* SoundTransform.swift in Sources */,
+				9D84496E259E64040088BFF1 /* FLVSoundType.swift in Sources */,
+				9D8449E8259E676F0088BFF1 /* VideoIOComponentEx.swift in Sources */,
+				9D844958259E64040088BFF1 /* CMFormatDescription+Extension.swift in Sources */,
+				9D844932259E64040088BFF1 /* ASClass.swift in Sources */,
+				9D8449C2259E64040088BFF1 /* M3U.swift in Sources */,
+				9D8449CE259E64040088BFF1 /* SRTSendSocket.swift in Sources */,
+				9D84494A259E64040088BFF1 /* CMVideoFormatDescription+Extension.swift in Sources */,
+				9D84492A259E64040088BFF1 /* NetClient.swift in Sources */,
+				9D844968259E64040088BFF1 /* FLVSoundSize.swift in Sources */,
+				9D844980259E64040088BFF1 /* ByteArray.swift in Sources */,
+				9D84495C259E64040088BFF1 /* CVPixelBuffer+Extension.swift in Sources */,
+				9D84497A259E64040088BFF1 /* MachUtil.swift in Sources */,
+				9D84499C259E64040088BFF1 /* MP4Reader.swift in Sources */,
+				9D8449B2259E64040088BFF1 /* AVMixer.swift in Sources */,
+				9D844940259E64040088BFF1 /* RTMPTSocket.swift in Sources */,
+				9D844960259E64040088BFF1 /* FLVFrameType.swift in Sources */,
+				9D844928259E64040088BFF1 /* MIME.swift in Sources */,
+				9D8449C6259E64040088BFF1 /* SRTSocket.swift in Sources */,
+				9D844954259E64040088BFF1 /* URL+Extension.swift in Sources */,
+				9D8449D2259E64040088BFF1 /* SRTStream.swift in Sources */,
+				9D8449F4259E679E0088BFF1 /* MyExtension.swift in Sources */,
+				9D8449BE259E64040088BFF1 /* HTTPRequest.swift in Sources */,
+				9D84492C259E64040088BFF1 /* NetService.swift in Sources */,
+				9D844978259E64040088BFF1 /* DeviceUtil.swift in Sources */,
+				9D8449EE259E67850088BFF1 /* VisionAdapter.swift in Sources */,
+				9D8449D0259E64040088BFF1 /* SRTRecvSocket.swift in Sources */,
+				9D844944259E64040088BFF1 /* RTMPMuxer.swift in Sources */,
+				9D84492E259E64040088BFF1 /* NetStream.swift in Sources */,
+				9D84494E259E64040088BFF1 /* VTSession+Extension.swift in Sources */,
+				9D844988259E64040088BFF1 /* VideoGravityUtil.swift in Sources */,
+				9D844948259E64040088BFF1 /* AMF3Serializer.swift in Sources */,
+				9D844946259E64040088BFF1 /* RTMPStream.swift in Sources */,
+				9D84495A259E64040088BFF1 /* Data+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -783,15 +1295,103 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				296FB2A021A85A7000CB4770 /* SRTIncomingSocket.swift in Sources */,
-				296FB23E21A6E0D100CB4770 /* SRTSocketOption.swift in Sources */,
-				296FB23821A6D58900CB4770 /* SRTStream.swift in Sources */,
-				296FB28B21A800CF00CB4770 /* SRTConnection.swift in Sources */,
-				296FB2A321A85A8400CB4770 /* SRTOutgoingSocket.swift in Sources */,
-				296FB28821A70E1500CB4770 /* Constants.swift in Sources */,
-				29D0939A21A998AF003E6E1F /* Data+Extension.swift in Sources */,
-				296FB28721A70D9600CB4770 /* SRTError.swift in Sources */,
-				296FB22921A6BEE700CB4770 /* SRTSocket.swift in Sources */,
+				9D844A3C259E6CB00088BFF1 /* DeviceUtil+Extenstion.swift in Sources */,
+				9D844935259E64040088BFF1 /* RTMPHandshake.swift in Sources */,
+				9D8449AB259E64040088BFF1 /* VisualEffect.swift in Sources */,
+				9D844995259E64040088BFF1 /* AudioConverter.swift in Sources */,
+				9D844967259E64040088BFF1 /* FLVVideoCodec.swift in Sources */,
+				9D844937259E64040088BFF1 /* RTMPMessage.swift in Sources */,
+				9D844977259E64040088BFF1 /* AnyUtil.swift in Sources */,
+				9D84498B259E64040088BFF1 /* Atomic.swift in Sources */,
+				9D8449BB259E64040088BFF1 /* AudioIOComponent.swift in Sources */,
+				9D84499B259E64040088BFF1 /* TSReader.swift in Sources */,
+				9D84496B259E64040088BFF1 /* FLVAACPacket.swift in Sources */,
+				9D844983259E64040088BFF1 /* DisplayLinkedQueue.swift in Sources */,
+				9D8449B1259E64040088BFF1 /* ScalingMode.swift in Sources */,
+				9D844A30259E6CB00088BFF1 /* VideoIOComponent+Extension.swift in Sources */,
+				9D844927259E64040088BFF1 /* NetSocket.swift in Sources */,
+				9D844957259E64040088BFF1 /* ExpressibleByIntegerLiteral+Extension.swift in Sources */,
+				9D844931259E64040088BFF1 /* RTMPSocket.swift in Sources */,
+				9D844971259E64040088BFF1 /* FLVAVCPacketType.swift in Sources */,
+				9D8449CD259E64040088BFF1 /* SRTError.swift in Sources */,
+				9D8449A5259E64040088BFF1 /* TSWriter.swift in Sources */,
+				9D844939259E64040088BFF1 /* RTMPConnection.swift in Sources */,
+				9D844963259E64040088BFF1 /* FLVReader.swift in Sources */,
+				9D8449BD259E64040088BFF1 /* HTTPStream.swift in Sources */,
+				9D84493F259E64040088BFF1 /* RTMPSharedObject.swift in Sources */,
+				9D844943259E64040088BFF1 /* RTMPStreamDelegate.swift in Sources */,
+				9D84498D259E64040088BFF1 /* CRC32.swift in Sources */,
+				9D844951259E64040088BFF1 /* CMBlockBuffer+Extension.swift in Sources */,
+				9D8449C1259E64040088BFF1 /* HTTPResponse.swift in Sources */,
+				9D844965259E64040088BFF1 /* FLVSoundRate.swift in Sources */,
+				9D8449A7259E64040088BFF1 /* MP4Sampler.swift in Sources */,
+				9D84493B259E64040088BFF1 /* AMF0Serializer.swift in Sources */,
+				9D8449A9259E64040088BFF1 /* NALUnit.swift in Sources */,
+				9D844A38259E6CB00088BFF1 /* MTHKView.swift in Sources */,
+				9D844975259E64040088BFF1 /* Constants.swift in Sources */,
+				9D8449B5259E64040088BFF1 /* VideoIOComponent.swift in Sources */,
+				9D8449A1259E64040088BFF1 /* H264+AVC.swift in Sources */,
+				9D8449A3259E64040088BFF1 /* AudioSpecificConfig.swift in Sources */,
+				9D84497D259E64040088BFF1 /* Running.swift in Sources */,
+				9D84495F259E64040088BFF1 /* CMAudioFormatDescription+Extension.swift in Sources */,
+				9D844997259E64040088BFF1 /* ProgramSpecific.swift in Sources */,
+				9D844A32259E6CB00088BFF1 /* GLHKView.swift in Sources */,
+				9D8449B7259E64040088BFF1 /* AVRecorder.swift in Sources */,
+				9D844993259E64040088BFF1 /* H264Decoder.swift in Sources */,
+				9D84498F259E64040088BFF1 /* EventDispatcher.swift in Sources */,
+				9D844987259E64040088BFF1 /* TimerDriver.swift in Sources */,
+				9D84499F259E64040088BFF1 /* PacketizedElementaryStream.swift in Sources */,
+				9D844A3A259E6CB00088BFF1 /* ScreenCaptureSession.swift in Sources */,
+				9D844991259E64040088BFF1 /* H264Encoder.swift in Sources */,
+				9D844A34259E6CB00088BFF1 /* NetStream+Extension.swift in Sources */,
+				9D84493D259E64040088BFF1 /* RTMPChunk.swift in Sources */,
+				9D84497F259E64040088BFF1 /* DataConvertible.swift in Sources */,
+				9D8449B9259E64040088BFF1 /* IOComponent.swift in Sources */,
+				9D8449C5259E64040088BFF1 /* HTTPService.swift in Sources */,
+				9D8449AF259E64040088BFF1 /* SoundSpliter.swift in Sources */,
+				9D8449C9259E64040088BFF1 /* SRTSocketOption.swift in Sources */,
+				9D844973259E64040088BFF1 /* FLVTagType.swift in Sources */,
+				9D844953259E64040088BFF1 /* CMSampleTimingInfo+Extension.swift in Sources */,
+				9D84494D259E64040088BFF1 /* CMSampleBuffer+Extension.swift in Sources */,
+				9D844999259E64040088BFF1 /* TransportStream.swift in Sources */,
+				9D84496D259E64040088BFF1 /* FLVAudioCodec.swift in Sources */,
+				9D844A36259E6CB00088BFF1 /* HKView.swift in Sources */,
+				9D844985259E64040088BFF1 /* MD5.swift in Sources */,
+				9D8449CB259E64040088BFF1 /* SRTConnection.swift in Sources */,
+				9D8449AD259E64040088BFF1 /* SoundTransform.swift in Sources */,
+				9D84496F259E64040088BFF1 /* FLVSoundType.swift in Sources */,
+				9D8449E9259E676F0088BFF1 /* VideoIOComponentEx.swift in Sources */,
+				9D844959259E64040088BFF1 /* CMFormatDescription+Extension.swift in Sources */,
+				9D844933259E64040088BFF1 /* ASClass.swift in Sources */,
+				9D8449C3259E64040088BFF1 /* M3U.swift in Sources */,
+				9D8449CF259E64040088BFF1 /* SRTSendSocket.swift in Sources */,
+				9D84494B259E64040088BFF1 /* CMVideoFormatDescription+Extension.swift in Sources */,
+				9D84492B259E64040088BFF1 /* NetClient.swift in Sources */,
+				9D844969259E64040088BFF1 /* FLVSoundSize.swift in Sources */,
+				9D844981259E64040088BFF1 /* ByteArray.swift in Sources */,
+				9D84495D259E64040088BFF1 /* CVPixelBuffer+Extension.swift in Sources */,
+				9D84497B259E64040088BFF1 /* MachUtil.swift in Sources */,
+				9D84499D259E64040088BFF1 /* MP4Reader.swift in Sources */,
+				9D8449B3259E64040088BFF1 /* AVMixer.swift in Sources */,
+				9D844941259E64040088BFF1 /* RTMPTSocket.swift in Sources */,
+				9D844961259E64040088BFF1 /* FLVFrameType.swift in Sources */,
+				9D844929259E64040088BFF1 /* MIME.swift in Sources */,
+				9D8449C7259E64040088BFF1 /* SRTSocket.swift in Sources */,
+				9D844955259E64040088BFF1 /* URL+Extension.swift in Sources */,
+				9D8449D3259E64040088BFF1 /* SRTStream.swift in Sources */,
+				9D8449F5259E679E0088BFF1 /* MyExtension.swift in Sources */,
+				9D8449BF259E64040088BFF1 /* HTTPRequest.swift in Sources */,
+				9D84492D259E64040088BFF1 /* NetService.swift in Sources */,
+				9D844979259E64040088BFF1 /* DeviceUtil.swift in Sources */,
+				9D8449EF259E67850088BFF1 /* VisionAdapter.swift in Sources */,
+				9D8449D1259E64040088BFF1 /* SRTRecvSocket.swift in Sources */,
+				9D844945259E64040088BFF1 /* RTMPMuxer.swift in Sources */,
+				9D84492F259E64040088BFF1 /* NetStream.swift in Sources */,
+				9D84494F259E64040088BFF1 /* VTSession+Extension.swift in Sources */,
+				9D844989259E64040088BFF1 /* VideoGravityUtil.swift in Sources */,
+				9D844949259E64040088BFF1 /* AMF3Serializer.swift in Sources */,
+				9D844947259E64040088BFF1 /* RTMPStream.swift in Sources */,
+				9D84495B259E64040088BFF1 /* Data+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1118,7 +1718,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Platforms/iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1162,7 +1762,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Platforms/iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1193,13 +1793,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Example iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SUEQ2SZ2L5;
+				DEVELOPMENT_TEAM = 6RLARJ2U86;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Examples/iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1225,7 +1825,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Examples/iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
